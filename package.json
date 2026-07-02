@@ -1,0 +1,17 @@
+{
+  "name": "wa-api-auto-blast",
+  "version": "1.0.0",
+  "description": "WhatsApp Business API 自动 Blasting 系统 - 自动追踪未回复客户并追加发送",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "axios": "^1.7.7",
+    "better-sqlite3": "^11.3.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5"
+  }
+}
